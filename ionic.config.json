@@ -1,0 +1,7 @@
+{
+  "name": "loginUI",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
