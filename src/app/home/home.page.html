@@ -1,62 +1,71 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar>
-
-  </ion-toolbar>
+  <ion-toolbar> </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-grid class="ion-margin-horizontal bellborder">
-    <ion-row class="ion-justify-content-center bellborder">
-      <ion-col size="8"  class="ion-text-center bellborder">
-        <div ion-text-uppercase>
-          <h2>Welcome Back</h2>
-        </div>
-        <div class="ion-margin-top">
-          Login to access your account
-        </div>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col  size="6" class="bellborder ion-text-center">
-        <div>
-          Google
-        </div>
-      </ion-col>
-      <ion-col size="6">
-        <div>
-          facebook
-        </div>
-      </ion-col>
-    </ion-row>
+  <ion-grid class="ion-margin-horizontal">
     <ion-row class="ion-justify-content-center">
-      <ion-col size="6" class="ion-text-center">
-        <div>
-          Sign in with email
+      <ion-col size="8" class="ion-text-center">
+        <ion-text class="H1heading ion-text-uppercase"> Welcome Back </ion-text>
+        <p class="H2Heading ion-margin-top">Login to access your account</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="ion-text-center">
+        <ion-icon  src="assets/iconGoogle.svg"></ion-icon>
+        <ion-label class="ion-padding-start">Google</ion-label>
+      </ion-col>
+      <ion-col class="ion-text-center">
+        <ion-icon  src="assets/Vector.svg" > </ion-icon>
+        <ion-label class="ion-padding-start">Facebook</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-margin-top">
+      <ion-col class="ion-text-center">
+        <ion-text class="H4Text">Sign in with email</ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label class="H4Text">Email</ion-label>
+        <ion-item lines="none" class="ion-margin-top inputfield">
+          <ion-input type="email"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label class="H4Text">Phone Number</ion-label>
+        <ion-item lines="none" class="ion-margin-top inputfield">
+          <ion-input type="tel"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label class="H4Text">Password</ion-label>
+        <ion-item lines="none" class="ion-margin-top inputfield">
+          <ion-input type="password"> </ion-input>
+          <ion-icon name="eye-off-outline" ite></ion-icon>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-no-margin">
+      <ion-col size="12" class="ion-no-padding">
+        <div class="ion-text-end">
+          <p class="joinUsTxt">Forgot password ?</p>
         </div>
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col>
-        <ion-item>
-          <ion-label position="floating">Email</ion-label>
-          <ion-input></ion-input>
-        </ion-item>
+      <ion-col size="12">
+        <ion-button expand="block">Sign In</ion-button>
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col>
-        <ion-item>
-          <ion-label position="stacked" class="ion-padding-bottom">Phone Number</ion-label>
-          <ion-input type="number" ></ion-input>
-        </ion-item>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col>
-        <ion-item>
-          <ion-label position="floating">Password</ion-label>
-          <ion-input></ion-input>
-        </ion-item>
+      <ion-col class="ion-text-center">
+        <ion-text class="subHeading"> Don't have an account? </ion-text>
+        <ion-text class="joinUsTxt">Join Us</ion-text>
       </ion-col>
     </ion-row>
   </ion-grid>

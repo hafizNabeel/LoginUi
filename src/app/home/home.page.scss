@@ -1,20 +1,60 @@
-.bellback{
-  border-style: dotted;
-  width: 100%;
-  height: 100%;
-  display: flex;
+
+ .inputfield{
+--border-color: #888888;
+--border-radius:5px;
+--border-width:1px;
+--inner-border-width: 0;
+--highlight-background:none;
 }
 
-.bellborder{
-  border-style: dashed;
+
+ion-button{
+  --background:#F8623A
 }
 
-ion-input{
-  border:1px solid;
-  --border-color:0F0D23;
+ion-icon{
+  height:14px;
+  width: 14px;
 }
 
-ion-item{
-  --border-style: none;
 
+.subHeading{
+  font-size:12px;
+  font-weight:400;
+
+}
+.joinUsTxt{
+  font-size: 12px;
+  font-weight: 700;
+  color: #7215EA;
+}
+
+.H1heading{
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #222222;
+}
+
+.H2Heading{
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #888888;
+}
+
+.H3Heading{
+  font-family: 'Arimo';
+  font-style: normal;
+  font-size: 14px;
+  color: #222222;
+  }
+
+.H4Text{
+font-family: Arimo;
+Font-size: 12px;
+fill: Solid;
+color:#888888
 }
