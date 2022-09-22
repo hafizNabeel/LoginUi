@@ -1,33 +1,16 @@
-<ion-header class="ion-no-border">
-  <ion-toolbar> </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <ion-grid class="ion-margin-horizontal">
+  <ion-grid class="ion-margin-horizontal ion-margin-top">
     <ion-row class="ion-justify-content-center">
       <ion-col size="8" class="ion-text-center">
-        <ion-text class="H1heading ion-text-uppercase"> Welcome Back </ion-text>
-        <p class="H2Heading ion-margin-top">Login to access your account</p>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col class="ion-text-center">
-        <ion-icon  src="assets/iconGoogle.svg"></ion-icon>
-        <ion-label class="ion-padding-start">Google</ion-label>
-      </ion-col>
-      <ion-col class="ion-text-center">
-        <ion-icon  src="assets/Vector.svg" > </ion-icon>
-        <ion-label class="ion-padding-start">Facebook</ion-label>
-      </ion-col>
-    </ion-row>
-    <ion-row class="ion-margin-top">
-      <ion-col class="ion-text-center">
-        <ion-text class="H4Text">Sign in with email</ion-text>
+        <ion-text class="h1-heading ion-text-uppercase">
+          Welcome Back
+        </ion-text>
+        <p class="h2-heading ion-margin-top">Login to access your account</p>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-label class="H4Text">Email</ion-label>
+        <ion-label class="h4-text">Email Address </ion-label>
         <ion-item lines="none" class="ion-margin-top inputfield">
           <ion-input type="email"></ion-input>
         </ion-item>
@@ -35,7 +18,7 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-label class="H4Text">Phone Number</ion-label>
+        <ion-label class="h4-text">Phone Number</ion-label>
         <ion-item lines="none" class="ion-margin-top inputfield">
           <ion-input type="tel"></ion-input>
         </ion-item>
@@ -43,7 +26,7 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-label class="H4Text">Password</ion-label>
+        <ion-label class="h4-text">Password</ion-label>
         <ion-item lines="none" class="ion-margin-top inputfield">
           <ion-input type="password"> </ion-input>
           <ion-icon name="eye-off-outline" ite></ion-icon>
@@ -53,20 +36,49 @@
     <ion-row class="ion-no-margin">
       <ion-col size="12" class="ion-no-padding">
         <div class="ion-text-end">
-          <p class="joinUsTxt">Forgot password ?</p>
+          <p class="join-us-text">Forgot password ?</p>
         </div>
       </ion-col>
     </ion-row>
-    <ion-row>
-      <ion-col size="12">
-        <ion-button expand="block">Sign In</ion-button>
+    <ion-row class="ion-align-items-center">
+      <ion-col>
+        <div class="col-border"></div>
+      </ion-col>
+      <ion-col class="ion-text-center">
+        <p class="h4-text">Or Sign In With</p>
+      </ion-col>
+      <ion-col>
+        <div class="col-border"></div>
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col class="ion-text-center">
-        <ion-text class="subHeading"> Don't have an account? </ion-text>
-        <ion-text class="joinUsTxt">Join Us</ion-text>
+      <ion-col size="6">
+        <ion-button class="ion-float-end btn-social">
+          <ion-icon
+            class="ion-padding-end"
+            src="assets/iconGoogle.svg"
+          ></ion-icon
+          >Google</ion-button
+        >
       </ion-col>
+      <ion-col size="6">
+        <ion-button class="btn-social">
+          <ion-icon class="ion-padding-end" src="assets/Vector.svg"> </ion-icon>
+          facebook</ion-button
+        >
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12"> </ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button class="sign-in" expand="block">Sign In</ion-button>
+    <div class="ion-text-center">
+      <ion-text class="sub-heading"> Don't have an account? </ion-text>
+      <ion-text class="join-us-text">Sign Up</ion-text>
+    </div>
+  </ion-toolbar>
+</ion-footer>

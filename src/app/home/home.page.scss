@@ -8,8 +8,23 @@
 }
 
 
-ion-button{
-  --background:#F8623A
+ion-button.btn-social{
+  --border-radius: 0;
+  --border-width: 0;
+  --background:#FAFAFA;
+  --color:3222222;
+  width: 150px;
+}
+
+ion-button.sign-in{
+  --background:#06A3E9;
+  --border-radius: 5px;
+  height: 56px;
+}
+
+ion-toolbar{
+  --padding-start:16px ;
+  --padding-end:16px;
 }
 
 ion-icon{
@@ -17,27 +32,30 @@ ion-icon{
   width: 14px;
 }
 
+.customborder{
+  border: 1px solid black;
+}
 
-.subHeading{
+.sub-heading{
   font-size:12px;
   font-weight:400;
-
 }
-.joinUsTxt{
+.join-us-text{
   font-size: 12px;
   font-weight: 700;
-  color: #7215EA;
+
+  color: #F96F7B;
 }
 
-.H1heading{
+.h1-heading{
 font-family: 'Arimo';
-font-style: normal;
+font-style: bold;
 font-weight: 700;
 font-size: 24px;
 color: #222222;
 }
 
-.H2Heading{
+.h2-heading{
 font-family: 'Arimo';
 font-style: normal;
 font-weight: 400;
@@ -45,16 +63,15 @@ font-size: 14px;
 color: #888888;
 }
 
-.H3Heading{
-  font-family: 'Arimo';
-  font-style: normal;
-  font-size: 14px;
-  color: #222222;
-  }
 
-.H4Text{
+.h4-text{
 font-family: Arimo;
 Font-size: 12px;
 fill: Solid;
 color:#888888
+}
+
+
+.col-border{
+  border-top: 1px solid #F2F2F2;
 }
