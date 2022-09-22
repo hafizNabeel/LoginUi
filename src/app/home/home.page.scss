@@ -1,60 +1,21 @@
 
- .inputfield{
---border-color: #888888;
---border-radius:5px;
---border-width:1px;
---inner-border-width: 0;
---highlight-background:none;
+
+
+ion-searchbar.custom{
+  --icon-color:#6EB943;
+  --box-shadow:#F0F0F0;
 }
 
 
-ion-button{
-  --background:#F8623A
+ion-icon.fav{
+  border-radius: 50px;
+  color:#6EB943;
+  background-color: blue;
+  offset: 0px, 2px rgba(0, 0, 0, 0.05)
 }
 
-ion-icon{
-  height:14px;
-  width: 14px;
-}
-
-
-.subHeading{
-  font-size:12px;
-  font-weight:400;
-
-}
-.joinUsTxt{
-  font-size: 12px;
-  font-weight: 700;
-  color: #7215EA;
-}
-
-.H1heading{
-font-family: 'Arimo';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-color: #222222;
-}
-
-.H2Heading{
-font-family: 'Arimo';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-color: #888888;
-}
-
-.H3Heading{
-  font-family: 'Arimo';
-  font-style: normal;
-  font-size: 14px;
-  color: #222222;
-  }
-
-.H4Text{
-font-family: Arimo;
-Font-size: 12px;
-fill: Solid;
-color:#888888
+.sett{
+  z-index: 10;
+  margin-left:-50px;
+  color:#6EB943
 }
